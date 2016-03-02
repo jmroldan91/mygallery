@@ -1,0 +1,31 @@
+[25-Jan-2016 09:22:02 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/inc/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/classes/Render.php on line 4
+[25-Jan-2016 09:22:02 UTC] PHP Stack trace:
+[25-Jan-2016 09:22:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/login.php:0
+[25-Jan-2016 09:22:02 UTC] PHP   2. Render::getHeader() /home/ubuntu/workspace/user/login.php:8
+[25-Jan-2016 09:22:02 UTC] PHP Warning:  include_once(): Failed opening '/home/ubuntu/workspace/inc/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/classes/Render.php on line 4
+[25-Jan-2016 09:22:02 UTC] PHP Stack trace:
+[25-Jan-2016 09:22:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/login.php:0
+[25-Jan-2016 09:22:02 UTC] PHP   2. Render::getHeader() /home/ubuntu/workspace/user/login.php:8
+[25-Jan-2016 09:22:02 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/inc/footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/classes/Render.php on line 7
+[25-Jan-2016 09:22:02 UTC] PHP Stack trace:
+[25-Jan-2016 09:22:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/login.php:0
+[25-Jan-2016 09:22:02 UTC] PHP   2. Render::getFooter() /home/ubuntu/workspace/user/login.php:123
+[25-Jan-2016 09:22:02 UTC] PHP Warning:  include_once(): Failed opening '/home/ubuntu/workspace/inc/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/classes/Render.php on line 7
+[25-Jan-2016 09:22:02 UTC] PHP Stack trace:
+[25-Jan-2016 09:22:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/login.php:0
+[25-Jan-2016 09:22:02 UTC] PHP   2. Render::getFooter() /home/ubuntu/workspace/user/login.php:123
+[27-Jan-2016 23:10:52 UTC] PHP Fatal error:  Class 'Render' not found in /home/ubuntu/workspace/user/login.php on line 8
+[27-Jan-2016 23:10:52 UTC] PHP Stack trace:
+[27-Jan-2016 23:10:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/login.php:0
+[28-Jan-2016 07:52:50 UTC] PHP Fatal error:  Class 'Render' not found in /home/ubuntu/workspace/user/login.php on line 7
+[28-Jan-2016 07:52:50 UTC] PHP Stack trace:
+[28-Jan-2016 07:52:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/login.php:0
+[02-Feb-2016 08:13:34 UTC] PHP Fatal error:  Call to undefined method ManageUser::userActivate() in /home/ubuntu/workspace/user/activar.php on line 9
+[02-Feb-2016 08:13:34 UTC] PHP Stack trace:
+[02-Feb-2016 08:13:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/activar.php:0
+[02-Feb-2016 08:14:22 UTC] PHP Fatal error:  Call to undefined method ManageUser::userActivate() in /home/ubuntu/workspace/user/activar.php on line 9
+[02-Feb-2016 08:14:22 UTC] PHP Stack trace:
+[02-Feb-2016 08:14:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/activar.php:0
+[02-Feb-2016 08:16:31 UTC] PHP Fatal error:  Call to undefined method UserController::getHash() in /home/ubuntu/workspace/user/activar.php on line 8
+[02-Feb-2016 08:16:31 UTC] PHP Stack trace:
+[02-Feb-2016 08:16:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/activar.php:0
